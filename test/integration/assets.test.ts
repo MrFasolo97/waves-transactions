@@ -10,7 +10,8 @@ import {
   reissue, setAssetScript, transfer,
   waitForTx
 } from '../../src'
-import { address, publicKey } from '@waves/ts-lib-crypto'
+// @ts-ignore
+import { address, publicKey } from 'ts-lib-crypto-faso2'
 import { MASTER_SEED, CHAIN_ID, TIMEOUT, API_BASE, randomHexString } from './config'
 import { issueMinimalParams } from '../minimalParams'
 

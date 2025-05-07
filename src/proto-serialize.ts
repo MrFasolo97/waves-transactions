@@ -8,7 +8,7 @@ import {
     blake2b,
     concat,
     keccak
-} from '@waves/ts-lib-crypto'
+} from 'ts-lib-crypto-faso2'
 import {binary, schemas} from '@waves/marshall'
 import {
     AliasTransaction,

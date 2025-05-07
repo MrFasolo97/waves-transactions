@@ -1,4 +1,4 @@
-import { randomBytes } from '@waves/ts-lib-crypto'
+import { randomBytes } from 'ts-lib-crypto-faso2'
 
 /**
  * Before running test ensure MASTER_SEED has at leas 10 WAVES!!

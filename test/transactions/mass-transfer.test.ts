@@ -1,4 +1,5 @@
-import { publicKey, verifySignature } from '@waves/ts-lib-crypto'
+// @ts-ignore
+import { publicKey, verifySignature } from 'ts-lib-crypto-faso2'
 import {massTransfer, reissue} from '../../src'
 import {
   checkBinarySerializeDeserialize,

@@ -1,4 +1,5 @@
-import {base64Encode, publicKey} from '@waves/ts-lib-crypto'
+// @ts-ignore
+import {base64Encode, publicKey} from 'ts-lib-crypto-faso2'
 import {broadcast, cancelLease, data, IDataParams, libs, makeTxBytes, WithId} from '../../src'
 import {txToProtoBytes} from '../../src/proto-serialize'
 import {
@@ -10,7 +11,7 @@ import {
 } from '../../test/utils'
 import {cancelLeaseMinimalParams, dataMinimalParams} from '../minimalParams'
 import {binary} from '@waves/marshall'
-import {base64Decode} from '@waves/ts-lib-crypto/conversions/base-xx'
+import {base64Decode} from 'ts-lib-crypto-faso2/conversions/base-xx'
 import {dataTx} from './expected/proto/data.tx'
 import {dataBinaryTx} from './expected/binary/data.tx'
 

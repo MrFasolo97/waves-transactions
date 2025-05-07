@@ -1,4 +1,5 @@
-import {base16Decode, base16Encode, base64Decode, base64Encode, publicKey} from '@waves/ts-lib-crypto'
+// @ts-ignore
+import {base16Decode, base16Encode, base64Decode, base64Encode, publicKey} from 'ts-lib-crypto-faso2'
 import {alias} from '../../src'
 import {aliasMinimalParams} from '../minimalParams'
 import {

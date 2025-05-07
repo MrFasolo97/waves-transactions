@@ -3,7 +3,7 @@
  */
 import {IBurnParams, WithId, WithProofs, WithSender} from '../transactions'
 import { binary } from '@waves/marshall'
-import { signBytes, blake2b, base58Encode } from '@waves/ts-lib-crypto'
+import { signBytes, blake2b, base58Encode } from 'ts-lib-crypto-faso2'
 import {addProof, getSenderPublicKey, convertToPairs, networkByte, fee, normalizeAssetId} from '../generic'
 import { TSeedTypes } from '../types'
 import { validate } from '../validators'

@@ -1,4 +1,4 @@
-import { publicKey, verifySignature } from '@waves/ts-lib-crypto'
+import { publicKey, verifySignature } from 'ts-lib-crypto-faso2'
 import { binary } from '@waves/marshall'
 import { order } from '../../src/index'
 import { orderMinimalParams } from '../minimalParams'

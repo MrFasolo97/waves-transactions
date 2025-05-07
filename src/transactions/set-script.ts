@@ -2,7 +2,7 @@
  * @module index
  */
 import {ISetScriptParams, WithId, WithProofs, WithSender} from '../transactions'
-import {signBytes, blake2b, base58Encode} from '@waves/ts-lib-crypto'
+import {signBytes, blake2b, base58Encode} from 'ts-lib-crypto-faso2'
 import {
   addProof,
   getSenderPublicKey,

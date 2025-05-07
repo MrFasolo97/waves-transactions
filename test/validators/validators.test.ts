@@ -1,5 +1,6 @@
 import { validators } from '../../src/index'
 import { validate } from '../../src/validators'
+// @ts-ignore
 import {TRANSACTION_TYPE} from '@waves/ts-types'
 
 

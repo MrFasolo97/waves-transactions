@@ -12,7 +12,7 @@ import {
     normalizeAssetId
 } from '../generic'
 import {TSeedTypes} from '../types'
-import {base58Encode, blake2b, signBytes} from '@waves/ts-lib-crypto'
+import {base58Encode, blake2b, signBytes} from 'ts-lib-crypto-faso2'
 import {binary} from '@waves/marshall'
 import {validate} from '../validators'
 import {txToProtoBytes} from '../proto-serialize'

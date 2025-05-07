@@ -2,7 +2,7 @@
 //  * @module index
 //  */
 // import {IInvokeExpressionParams, WithId, WithProofs, WithSender} from '../transactions'
-// import {base58Encode, blake2b, signBytes,} from '@waves/ts-lib-crypto'
+// import {base58Encode, blake2b, signBytes,} from 'ts-lib-crypto-faso2'
 // import {
 //     addProof,
 //     base64Prefix,

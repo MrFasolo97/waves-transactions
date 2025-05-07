@@ -2,7 +2,8 @@
 
 import {broadcast, exchange, order} from '../../src'
 import {Seed} from '../../src/seedUtils'
-import {publicKey} from '@waves/ts-lib-crypto'
+// @ts-ignore
+import {publicKey} from 'ts-lib-crypto-faso2'
 import {txToProtoBytes} from '../../src/proto-serialize'
 
 var fs = require('fs')

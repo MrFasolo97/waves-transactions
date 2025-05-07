@@ -1,4 +1,4 @@
-import {base58Decode, base64Decode, keccak, blake2b, stringToBytes} from '@waves/ts-lib-crypto'
+import {base58Decode, base64Decode, keccak, blake2b, stringToBytes} from 'ts-lib-crypto-faso2'
 
 
 const TX_DEFAULTS = {

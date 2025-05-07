@@ -1,4 +1,5 @@
-import {base16Encode, base64Decode, publicKey, verifySignature} from '@waves/ts-lib-crypto'
+// @ts-ignore
+import {base16Encode, base64Decode, publicKey, verifySignature} from 'ts-lib-crypto-faso2'
 import {sponsorship, transfer} from '../../src'
 import {
   checkBinarySerializeDeserialize,

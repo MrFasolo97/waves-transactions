@@ -4,7 +4,7 @@ import {
   WithSender
 } from './transactions'
 import { TPrivateKey, TSeedTypes } from './types'
-import { publicKey, base58Decode } from '@waves/ts-lib-crypto'
+import { publicKey, base58Decode } from 'ts-lib-crypto-faso2'
 import {ExchangeTransactionOrder} from '@waves/ts-types'
 
 export const mapObj = <T, U, K extends string>(obj: Record<K, T>, f: (v: T) => U): Record<K, U> =>

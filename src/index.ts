@@ -62,7 +62,7 @@ export {
 } from './types'
 
 // internal libraries access
-import * as crypto from '@waves/ts-lib-crypto'
+import * as crypto from 'ts-lib-crypto-faso2'
 import * as marshall from '@waves/marshall'
 // import * as nodeApiJs from '@waves/node-api-js'
 

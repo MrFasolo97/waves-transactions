@@ -1,4 +1,5 @@
-import { publicKey, verifySignature } from '@waves/ts-lib-crypto'
+// @ts-ignore
+import { publicKey, verifySignature } from 'ts-lib-crypto-faso2'
 import {reissue, signTx, data, burn, broadcast, IDataParams} from '../src'
 import { serialize, verify } from '../src/general'
 import { reissueMinimalParams, burnMinimalParams, orderMinimalParams } from './minimalParams'

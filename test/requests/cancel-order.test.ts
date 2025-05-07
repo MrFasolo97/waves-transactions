@@ -1,4 +1,4 @@
-import { publicKey, verifySignature } from '@waves/ts-lib-crypto'
+import { publicKey, verifySignature } from 'ts-lib-crypto-faso2'
 import { cancelOrder } from '../../src/index'
 import { cancelOrderParamsToBytes } from '../../src/requests/cancel-order'
 import { cancelOrderMinimalParams } from '../minimalParams'

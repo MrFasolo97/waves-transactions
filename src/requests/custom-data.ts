@@ -1,7 +1,7 @@
 /**
  * @module index
  */
-import { signBytes, blake2b, base58Encode, publicKey, concat, TSeed } from '@waves/ts-lib-crypto'
+import { signBytes, blake2b, base58Encode, publicKey, concat, TSeed } from 'ts-lib-crypto-faso2'
 import { schemas, serializePrimitives } from '@waves/marshall'
 import { binary } from '@waves/marshall'
 import { validate } from '../validators'

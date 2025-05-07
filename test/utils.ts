@@ -1,4 +1,5 @@
-import {base16Encode, base64Decode, verifySignature} from '@waves/ts-lib-crypto'
+// @ts-ignore
+import {base16Encode, base64Decode, verifySignature} from 'ts-lib-crypto-faso2'
 import {binary} from '@waves/marshall'
 
 import {makeTx, TTx} from '../src'

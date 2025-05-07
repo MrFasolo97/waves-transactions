@@ -1,5 +1,5 @@
 import {binary} from '@waves/marshall'
-import {address, verifySignature} from '@waves/ts-lib-crypto'
+import {address, verifySignature} from 'ts-lib-crypto-faso2'
 import request from '@waves/node-api-js/cjs/tools/request'
 import stringify from '@waves/node-api-js/cjs/tools/stringify'
 import {TSeedTypes} from './types'

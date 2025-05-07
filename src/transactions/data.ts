@@ -3,7 +3,7 @@
  */
 import * as wavesProto from '@waves/protobuf-serialization'
 import {binary, serializePrimitives} from '@waves/marshall'
-import {base58Encode, blake2b, concat, signBytes} from '@waves/ts-lib-crypto'
+import {base58Encode, blake2b, concat, signBytes} from 'ts-lib-crypto-faso2'
 import {IDataParams, WithId, WithProofs, WithSender} from '../transactions'
 import {addProof, convertToPairs, fee, getSenderPublicKey, networkByte} from '../generic'
 import {TSeedTypes} from '../types'

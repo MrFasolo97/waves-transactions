@@ -2,7 +2,7 @@
  * @module index
  */
 import {ISponsorshipParams, WithId, WithProofs, WithSender} from '../transactions'
-import { signBytes, blake2b, base58Encode } from '@waves/ts-lib-crypto'
+import { signBytes, blake2b, base58Encode } from 'ts-lib-crypto-faso2'
 import {addProof, getSenderPublicKey, convertToPairs, fee, networkByte} from '../generic'
 import { TSeedTypes } from '../types'
 import { binary } from '@waves/marshall'

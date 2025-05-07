@@ -1,5 +1,6 @@
 import {protoBytesToTx, txToProtoBytes} from '../../src/proto-serialize'
-import {publicKey} from '@waves/ts-lib-crypto'
+// @ts-ignore
+import {publicKey} from 'ts-lib-crypto-faso2'
 import {invokeScriptMinimalParams} from '../minimalParams'
 import {invokeScript, setScript, waitForTx} from '../../src'
 import {IInvokeScriptParams} from '../../src'

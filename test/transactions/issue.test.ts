@@ -1,4 +1,5 @@
-import {publicKey} from '@waves/ts-lib-crypto'
+// @ts-ignore
+import {publicKey} from 'ts-lib-crypto-faso2'
 import {issue} from '../../src'
 import {
     checkBinarySerializeDeserialize,

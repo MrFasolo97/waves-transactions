@@ -1,7 +1,8 @@
 import * as utilityF from '../src/nodeInteraction'
 import {data} from '../src'
 import {broadcast} from '../src/nodeInteraction'
-import {address, randomSeed} from '@waves/ts-lib-crypto'
+// @ts-ignore
+import {address, randomSeed} from 'ts-lib-crypto-faso2'
 import {CHAIN_ID} from './integration/config'
 
 const chainId = 'T'

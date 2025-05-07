@@ -21,7 +21,8 @@ import {
 import {protoBytesToTx, txToProtoBytes} from '../src/proto-serialize'
 import {txs} from './example-proto-tx'
 import {randomHexString, TIMEOUT} from './integration/config'
-import {address} from '@waves/ts-lib-crypto'
+// @ts-ignore
+import {address} from 'ts-lib-crypto-faso2'
 import {issueMinimalParams} from './minimalParams'
 import {deleteProofsAndId} from './utils'
 
